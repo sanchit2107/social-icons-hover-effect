@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <title>Social icons Floating</title>
+    <!-- Custom Theme files -->
+    <link href="css/bootstrap.min.css" type="text/css" rel="stylesheet" media="all">
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- timeline -->
+    <!-- <link href="css/timeline.css" type="text/css" rel="stylesheet" media="all"> -->
+    <!-- font-awesome icons -->
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <!-- //Custom Theme files -->
+    <!-- online-fonts -->
+    <!-- <link href="//fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800" rel="stylesheet"> -->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+    <!-- social -->
+    <section class="social_w3ls_pvt position-relative py-5">
+        <div class="container py-lg-5">
+            <ul class="py-4">
+                <li><a href="#"><span class="fa fa-facebook"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-twitter" aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-google-plus" aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-linkedin"
+                            aria-hidden="true"></span></a></li>
+                <li><a href="#"><span class="fa fa-pinterest" aria-hidden="true"></span></a></li>
+            </ul>
+        </div>
+    </section>
+    
+    <script>
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+
+</body>
+
+</html>
